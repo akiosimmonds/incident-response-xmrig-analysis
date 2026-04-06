@@ -71,3 +71,27 @@ The incident was identified through abnormal system behavior, including sustaine
 - Indicator of Compromise (IOC) Identification  
 - Threat Detection & Remediation  
 - Security Monitoring & Analysis  
+
+---
+
+## Evidence & Analysis Artifacts
+
+This project includes SIEM-based analysis and system-level investigation to validate the presence of cryptomining activity.
+
+### SIEM Dashboard (Wazuh)
+![SIEM Dashboard](docs/siem-dashboard.png)
+
+### Log Analysis (Event Correlation)
+![Log Analysis](docs/log-analysis.png)
+
+### System Performance Indicators
+High CPU utilization observed in Task Manager indicating abnormal resource consumption.
+![CPU Usage](docs/cpu-usage.png)
+
+### Endpoint Security & Malware Detection
+Windows Defender identified and removed malicious activity associated with XMRig.
+![Windows Defender](docs/windows-defender.png)
+
+### Firewall Remediation
+Firewall rules were configured to block unauthorized outbound traffic on port 3333.
+![Firewall Rule](docs/firewall-rule.png)
