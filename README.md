@@ -95,3 +95,9 @@ Windows Defender identified and removed malicious activity associated with XMRig
 ### Firewall Remediation
 Firewall rules were configured to block unauthorized outbound traffic on port 3333.
 ![Firewall Rule](docs/firewall-rule.png)
+
+---
+
+## Related Project
+
+[Wazuh SOC Homelab](https://github.com/akiosimmonds/wazuh-soc-homelab) documents my broader Linux security-engineering work: multi-endpoint monitoring, custom detections, automated response, auditd, FIM, vulnerability triage, and ongoing Debian hardening. This repository remains a separate, focused XMRig incident-response case study.
